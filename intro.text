@@ -1,0 +1,22 @@
+- colocar sudo para cuando la carpeta no tenga permiso de administrador
+- comando para inicar react con los componentes, dentro de la carpeta de donde esrtara el proyecto
+    sudo npx create-react-app .
+
+- comanod para inicar server
+    sudo npm start
+
+- para realizar los proceso de test hay que entrar a la hoja App.test.js, para realizar pruebas de las funciones de conexion
+    - para ejecutar el test se ingresar a la termninal (warp) externa, se ingresa a la ruta del proyecto
+        npm t
+        -   mostrara si tiene error el test entrando directo a la hoja de App.test.js lectura constante
+
+- creamos una hoja en src data.json, donde contendra el json de la pagina de la api, un json local pagina de api
+    https://swapi.dev
+
+- la hoja de App.js es donde se mostrara el contenido del JSON
+
+- contenido dentro de App.js
+    - mostrar el contenido en un listado
+    - buscar por el id asociado al nombre del personaje  y mostra el contenido como la Altura, Masa y Año de nacimiento
+    - buscar por nombre del personaje
+    - paginacion con un numero de paginas para mostrar el contenido de toda la api validando  la cantidad de datos
